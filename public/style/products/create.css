@@ -1,0 +1,43 @@
+.edit-body-page{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.fieldset-outer{
+  font-size: 15px;
+  margin-left: 20px;
+  color: #9c9c9c;
+}
+.new-info-form{
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+}
+#product-name,
+#product-desc,
+#product-price,
+#product-category{
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  margin-left: 10px;
+  margin-bottom: 16px;
+  margin-top: 5px;
+}
+#update-info{
+  margin-top: 10px;
+  background-color: #d64338;
+  border: none;
+  border-radius: 5px;
+  color: azure;
+  font-weight: 500;
+  padding: 10px;
+}
+.section-img img{
+  width: 500px;
+}

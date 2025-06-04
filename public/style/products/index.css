@@ -1,0 +1,97 @@
+
+.category-cards{
+  background-color: rgba(240, 248, 255, 0.425);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* max-width: 3000px; */
+  padding: 10px 0px;
+}
+
+.category-card{
+  background-color: white;
+  color: #2b3f85;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+.category-card:hover {
+  transform: translateY(-5px);
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 50px;
+  padding: 40px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+.product-item{
+  text-decoration: none;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card h3 {
+  color: black;
+  font-size: 18px;
+  margin: 15px 0 10px;
+}
+
+.product-card p {
+  color: #2b3f85;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.add-btn{
+  background: linear-gradient(to left, rgb(0, 81, 255),rgb(0, 191, 255),rgb(0, 255, 174), rgb(0, 255, 26) );
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 80px;
+  right: 80px;
+  display: flex;
+  padding-bottom: 7px;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  font-size: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.add-btn:hover{
+  background: linear-gradient(to right, rgb(0, 81, 255),rgb(0, 191, 255),rgb(0, 255, 174), rgb(0, 255, 26) );
+  transform: translate(-10px);
+}
+
+.no-products-message{
+  margin-top: 140px;
+  padding: 130px;
+  color: #2b3f85;
+  font-style: oblique;
+  font-weight: bolder;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
