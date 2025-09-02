@@ -32,9 +32,9 @@
 </ul>
 
 <h2>Youtube Link</h2>
-<a href="https://youtu.be/-1CzgCmj3ck">
-    <img src="public/style/photos/logo.png" width=200 >
-</a>
+
+<img src="public/style/photos/logo.png" width=200 >
+
 <h2>Photos in website</h2>
 <li>
     home page
